@@ -1,13 +1,31 @@
-import './App.css'
 
-function App() {
-  return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Nike Frontend Clone
-      </h1>
-    </div>
-  )
-}
-
-export default App
+const App = () => (
+  <main className="relative">
+    Nav
+    <section className="xl:padding-1 wide:padding-r padding-b">
+      Hero
+    </section>
+    <section className="padding">
+      Popular Product
+    </section>
+    <section className="padding">
+      Super Quality
+    </section>
+    <section className="padding-x py-10">
+      Services
+    </section>
+    <section className="padding">
+      Special Offer
+    </section>
+    <section className="padding bg-pale-blue padding">
+      Customer Reviews
+    </section>
+    <section className="padding-x sm:py-32 py-16 w-full">
+      Subscribe
+    </section>
+    <section className="padding bg-black padding-x padding-t pb-8">
+      Footer
+    </section>
+  </main>
+);
+export default App;
